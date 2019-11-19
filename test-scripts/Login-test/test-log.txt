@@ -1,0 +1,26 @@
+---------------------------------- 
+--------- SEARCHBAR TEST --------- 
+---------------------------------- 
+# Initializing test 
+
+Added 10 test cases 
+
+# Starting Chrome 
+# Going through test cases 
+ 
+Test case passed: Login with valid username and password 
+Test case passed: Login with invalid username and password 
+Test case passed: Login with empty fields 
+Test case passed: Login with invalid password 
+Test case passed: Login with invalid username 
+Test case passed: Login with empty username 
+Test case passed: Login with empty password 
+Test case passed: Login with invalid username and password (special characters) 
+Test case passed: Login with invalid username and password (capitalized first letter) 
+Test case passed: Login with invalid username and password (all capitalized) 
+
+# Closing Chrome 
+---------------------------------- 
+---------- TEST RESULTS ---------- 
+---------------------------------- 
+# Test completed with 0 failed test cases (out of 10)

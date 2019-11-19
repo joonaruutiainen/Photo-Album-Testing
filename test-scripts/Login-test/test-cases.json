@@ -1,0 +1,52 @@
+[
+    {
+        "msg": "Login with valid username and password",
+        "username": "user",
+        "password": "password"
+    },
+    {
+        "msg": "Login with invalid username and password",
+        "username": "wrong_user",
+        "password": "wrong_password"
+    },
+    {
+        "msg": "Login with empty fields",
+        "username": "",
+        "password": ""
+    },
+    {
+        "msg": "Login with invalid password",
+        "username": "user",
+        "password": "wrong_password"
+    },
+    {
+        "msg": "Login with invalid username",
+        "username": "wrong_user",
+        "password": "password"
+    },
+    {
+        "msg": "Login with empty username",
+        "username": "",
+        "password": "password"
+    },
+    {
+        "msg": "Login with empty password",
+        "username": "user",
+        "password": ""
+    },
+    {
+        "msg": "Login with invalid username and password (special characters)",
+        "username": "$¤ä¤¤!",
+        "password": "%@{ö@6=&^*"
+    },
+    {
+        "msg": "Login with invalid username and password (capitalized first letter)",
+        "username": "User",
+        "password": "Password"
+    },
+    {
+        "msg": "Login with invalid username and password (all capitalized)",
+        "username": "USER",
+        "password": "PASSWORD"
+    }
+]
