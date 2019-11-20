@@ -108,7 +108,7 @@ def main():
         test_log = open(TEST_LOG, 'w')
         test_log.writelines([
             '---------------------------------- \n',
-            '--------- SEARCHBAR TEST --------- \n',
+            '----------- LOGIN TEST ----------- \n',
             '---------------------------------- \n',
             '# Initializing test \n',
             '\n'
