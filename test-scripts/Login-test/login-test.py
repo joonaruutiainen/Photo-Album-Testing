@@ -43,6 +43,7 @@ class TestInput:
 
 def initialize_test_cases(log):
     """Reads the test-case-data from a JSON-file and saves it as TestInput objects in TEST_CASES
+    Returns true if initialization succeeded or false if there was an error
 
     Parameters
     ----------

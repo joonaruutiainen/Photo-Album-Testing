@@ -72,6 +72,7 @@ class Image:
 
 def initialize_test_cases(log):
     """Reads the test-case-data from a JSON-file and saves it as TestInput objects in TEST_CASES
+    Returns true if initialization succeeded or false if there was an error
 
     Parameters
     ----------
@@ -100,6 +101,7 @@ def initialize_test_cases(log):
 def initialize_images(log):
     """Populates the TEST_IMAGES list with Image items that are dated starting from 
     01.06.2018 12:00:00 to 19.07.2018 12:00:00 in 24 hour intervals, 49 images in total
+    Returns true if initialization succeeded or false if there was an error
 
     Parameters
     ----------
