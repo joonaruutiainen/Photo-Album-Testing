@@ -1,0 +1,110 @@
+---------------------------------- 
+------  KEYWORD SEARCH TEST ------ 
+---------------------------------- 
+# Initializing test 
+
+Added 8 test cases 
+
+# Starting Chrome 
+# Going through test cases 
+
+Search with existing keyword
+IMAGE_ID: 0 OK 
+IMAGE_ID: 1 OK 
+IMAGE_ID: 2 OK 
+IMAGE_ID: 3 ERROR 
+IMAGE_ID: 4 ERROR 
+IMAGE_ID: 5 ERROR 
+IMAGE_ID: 6 ERROR 
+IMAGE_ID: 7 ERROR 
+Expected 3 results, got 8 
+Search completed with 6 errors 
+
+Search with existing keyword
+IMAGE_ID: 0 ERROR 
+IMAGE_ID: 1 ERROR 
+IMAGE_ID: 2 ERROR 
+IMAGE_ID: 3 OK 
+IMAGE_ID: 4 OK 
+IMAGE_ID: 5 OK 
+IMAGE_ID: 6 ERROR 
+IMAGE_ID: 7 ERROR 
+Expected 3 results, got 8 
+Search completed with 6 errors 
+
+Search with existing keyword
+IMAGE_ID: 0 ERROR 
+IMAGE_ID: 1 ERROR 
+IMAGE_ID: 2 ERROR 
+IMAGE_ID: 3 ERROR 
+IMAGE_ID: 4 ERROR 
+IMAGE_ID: 5 ERROR 
+IMAGE_ID: 6 OK 
+IMAGE_ID: 7 OK 
+Expected 2 results, got 8 
+Search completed with 7 errors 
+
+Search with all existing keywords
+IMAGE_ID: 0 OK 
+IMAGE_ID: 1 OK 
+IMAGE_ID: 2 OK 
+IMAGE_ID: 3 OK 
+IMAGE_ID: 4 OK 
+IMAGE_ID: 5 OK 
+IMAGE_ID: 6 OK 
+IMAGE_ID: 7 OK 
+Search completed with 0 errors 
+
+Search with non-existing keyword
+IMAGE_ID: 0 ERROR 
+IMAGE_ID: 1 ERROR 
+IMAGE_ID: 2 ERROR 
+IMAGE_ID: 3 ERROR 
+IMAGE_ID: 4 ERROR 
+IMAGE_ID: 5 ERROR 
+IMAGE_ID: 6 ERROR 
+IMAGE_ID: 7 ERROR 
+Expected 0 results, got 8 
+Search completed with 9 errors 
+
+Search with non-existing keywords
+IMAGE_ID: 0 ERROR 
+IMAGE_ID: 1 ERROR 
+IMAGE_ID: 2 ERROR 
+IMAGE_ID: 3 ERROR 
+IMAGE_ID: 4 ERROR 
+IMAGE_ID: 5 ERROR 
+IMAGE_ID: 6 ERROR 
+IMAGE_ID: 7 ERROR 
+Expected 0 results, got 8 
+Search completed with 9 errors 
+
+Search with both existing and non-existing keywords
+IMAGE_ID: 0 ERROR 
+IMAGE_ID: 1 ERROR 
+IMAGE_ID: 2 ERROR 
+IMAGE_ID: 3 OK 
+IMAGE_ID: 4 OK 
+IMAGE_ID: 5 OK 
+IMAGE_ID: 6 OK 
+IMAGE_ID: 7 OK 
+Expected 5 results, got 8 
+Search completed with 4 errors 
+
+Search with invalid input
+IMAGE_ID: 0 ERROR 
+IMAGE_ID: 1 ERROR 
+IMAGE_ID: 2 ERROR 
+IMAGE_ID: 3 ERROR 
+IMAGE_ID: 4 ERROR 
+IMAGE_ID: 5 ERROR 
+IMAGE_ID: 6 ERROR 
+IMAGE_ID: 7 ERROR 
+Expected 0 results, got 8 
+Search completed with 9 errors 
+
+# Closing Chrome 
+---------------------------------- 
+---------- TEST RESULTS ---------- 
+---------------------------------- 
+# Test completed with 7 failed test cases (out of 8)

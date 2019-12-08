@@ -1,0 +1,42 @@
+[
+    {
+        "msg": "Search with existing keyword",
+        "keywords": ["aaa"],
+        "results_expected": 3
+    },
+    {
+        "msg": "Search with existing keyword",
+        "keywords": ["bbb"],
+        "results_expected": 3
+    },
+    {
+        "msg": "Search with existing keyword",
+        "keywords": ["ccc"],
+        "results_expected": 2
+    },
+    {
+        "msg": "Search with all existing keywords",
+        "keywords": ["aaa","bbb","ccc"],
+        "results_expected": 8
+    },
+    {
+        "msg": "Search with non-existing keyword",
+        "keywords": ["abc"],
+        "results_expected": 0
+    },
+    {
+        "msg": "Search with non-existing keywords",
+        "keywords": ["abc","bca","cba"],
+        "results_expected": 0
+    },
+    {
+        "msg": "Search with both existing and non-existing keywords",
+        "keywords": ["abc", "bbb", "ccc"],
+        "results_expected": 5
+    },
+    {
+        "msg": "Search with invalid input",
+        "keywords": ["aaa.bbb ccc"],
+        "results_expected": 0
+    }
+]
