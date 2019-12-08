@@ -1,6 +1,6 @@
 """Login Test
 Author: Joona Ruutiainen
-Last edit: 19.11.2019
+Last edit: 7.12.2019
 
 This script is part of an excersise project for the course 'TIE-21201 Ohjelmistojen testaus'
 in Tampere University. The purpose of the project is to perfom tests for a photo album web application
@@ -19,6 +19,7 @@ from helium.api import *
 TEST_JSON = 'test-cases.json'
 TEST_LOG = 'test-log.txt'
 TEST_CASES = []
+APP_URL = 'http://localhost:8080/ps/v2/index.html'
 
 class TestInput:
     """
@@ -43,7 +44,6 @@ class TestInput:
 
 def initialize_test_cases(log):
     """Reads the test-case-data from a JSON-file and saves it as TestInput objects in TEST_CASES
-    Returns true if initialization succeeded or false if there was an error
 
     Parameters
     ----------
@@ -118,7 +118,7 @@ def main():
         if initialize_test_cases(test_log):
             test_log.write('\n# Starting Chrome \n')
             print('# Starting Chrome')
-            start_chrome('http://localhost:8080/ps/v1/index.html')
+            start_chrome(APP_URL)
             test_log.write('# Going through test cases \n \n')
             print('# Going through test cases')
             failed_tests = 0
